@@ -1,0 +1,36 @@
+.service-card {
+  background-color: #fbf8f8;
+  padding: 1.5em;
+  width: 14em;
+  height: 19em;
+
+  border-radius: 3em;
+  border-width: 1.5px;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1em;
+
+  margin-bottom: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-description {
+  text-align: justify;
+  font-size: 0.9em;
+  padding: 0.5em;
+}
+
+.service-img {
+  width: 8em;
+  height: 8em;
+  object-fit: cover;
+}

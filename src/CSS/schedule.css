@@ -1,0 +1,92 @@
+#schedule {
+  background-color: #f7f6f2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2em;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0e0e0e;
+}
+
+h1 {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+h1 span {
+  font-family: "Seaweed Script", cursive;
+  color: #ffafec;
+}
+label {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.scheduleForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.div1,
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 img {
+  height: 14em;
+  width: auto;
+}
+
+.scheduleForm input {
+  height: 2.8em;
+  width: 20em;
+  padding: 0.7em;
+
+  font-family: "Raleway", sans-serif;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #0e0e0e;
+}
+
+.scheduleForm select {
+  height: 2.8em;
+  width: 20em;
+  padding: 0.7em;
+  font-family: "Raleway", sans-serif;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #0e0e0e;
+
+}
+
+.scheduleForm select option{
+  background-color: #ffafec;
+
+}
+
+.scheduleForm textarea {
+  width: 20em;
+  height: 14em;
+  padding: 0.7em;
+  font-family: "Raleway", sans-serif;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #0e0e0e;
+}

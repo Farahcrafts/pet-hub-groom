@@ -1,0 +1,171 @@
+#home {
+  background-color: #f7f6f2;
+  margin-top: 4.1em;
+
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0e0e0e;
+}
+
+.first-part {
+  /* height: 90vh; */
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pinkDog {
+  width: 14em;
+}
+.pinkCats {
+  width: 19em;
+}
+
+.second-part {
+  /* height: 90vh; */
+
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 2.4em;
+}
+
+.yourBetterGrooming {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 0;
+
+  position: relative;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.your-better {
+  display: flex;
+  justify-content: center;
+}
+
+.your {
+  font-family: "Seaweed Script", cursive;
+  margin-right: 0.6em;
+}
+.star {
+  position: absolute;
+  top: 1.4em;
+  left: 5em;
+
+  width: 5em;
+  z-index: 100;
+}
+
+.details {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* padding-right: 6em; */
+}
+
+.greenDogs {
+  width: 14em;
+}
+
+.details p {
+  width: 16em;
+  text-align: justify;
+}
+
+@media (max-width: 430px) {
+  #home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yourBetterGrooming {
+    width: 90%;
+    margin-top: 2.5em;
+
+    font-size: 0.5em;
+  }
+
+  .star {
+    display: none;
+  }
+
+  .pinkDog {
+    display: none;
+  }
+  .greenDogs {
+    display: none;
+  }
+  .pinkCats {
+    display: none;
+  }
+
+  .second-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 1em;
+    margin-bottom: 2em;
+
+    padding-right: 0;
+  }
+  .details p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .greenDogs {
+    display: none;
+  }
+
+  .details {
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  .yourBetterGrooming {
+    padding-right: 1em;
+    width: auto;
+    height: auto;
+  }
+  .yourBetterGrooming h1 {
+    font-size: 3em;
+  }
+  .details p {
+    text-align: center;
+    width: 90%;
+  }
+
+  .star {
+    display: none;
+  }
+}

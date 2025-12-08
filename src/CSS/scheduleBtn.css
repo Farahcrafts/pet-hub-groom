@@ -1,0 +1,26 @@
+.ScheduleBtn {
+  padding: 1.3em 4em;
+  border-radius: 0.8em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0e0e0e;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.4em;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.ScheduleBtn:hover {
+  opacity: 0.75;
+}
+
+.ScheduleBtn img {
+  width: 1.5em;
+}

@@ -1,0 +1,69 @@
+.befAfCard {
+  background-color: #c1eeff;
+  border-radius: 2em;
+  border-width: 1.5px;
+  border-style: solid;
+
+  margin-bottom: 0.5em;
+
+  height: 23em;
+  width: 25em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.befAfCard:hover {
+  transform: scale(1.02);
+}
+
+.befAfpics {
+  flex: 1;
+}
+.befAfpics img {
+  width: 10em;
+  height: auto;
+}
+
+.befAfdescription {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+  row-gap: 0.2em;
+}
+.pet-name {
+  font-family: "Seaweed Script", cursive;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.pet-description {
+  text-align: justify;
+  width: 90%;
+}
+
+@media (max-width: 430px) {
+  .befAfCard {
+    height: 20em;
+    width: 18em;
+  }
+  .befAfpics img {
+    width: 8em;
+    height: auto;
+  }
+  .pet-name {
+    font-family: "Seaweed Script", cursive;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .pet-description {
+    font-size: 0.8em;
+    text-align: justify;
+    width: 90%;
+  }
+}

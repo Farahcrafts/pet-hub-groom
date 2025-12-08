@@ -1,0 +1,41 @@
+#services {
+  min-height: 90vh;
+  background-color: #ffafec;
+  position: relative;
+  overflow: hidden;
+
+  border-radius: 1.5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0e0e0e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-services {
+  font-size: 3em;
+}
+.cards-container {
+  position: relative;
+  z-index: 10;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container-small {
+  margin-bottom: 1.3em;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1em;
+  flex-wrap: wrap;
+}

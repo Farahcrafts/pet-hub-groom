@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Meet Milo",
+    "imgBefore": "/images/before-after/dog1before.svg",
+    "imgAfter": "/images/before-after/dog1after.svg",
+    "description": "Milo is a playful two-year-old Pomeranian who loves attention, squeaky toys, and running in circles for absolutely no reason. His fluffy coat grows fast, so he visits us regularly for a tidy grooming session. Despite being tiny, he always enters the salon with the confidence of a big dog and leaves looking extra soft, clean, and camera-ready."
+  },
+  {
+    "id": "2",
+    "name": "Meet Bella",
+    "imgBefore": "/images/before-after/dog2before.svg",
+    "imgAfter": "/images/before-after/dog2after.svg",
+    "description": "Bella is a gentle four-year-old Golden Retriever with a heart as warm as her golden fur. She's calm, affectionate, and loves belly rubs more than anything. Her grooming sessions focus on deep brushing and coat maintenance to keep her shedding under control. Bella always leaves our salon with her signature fluffy tail wagging proudly."
+  },
+  {
+    "id": "3",
+    "name": "Meet Coco",
+    "imgBefore": "/images/before-after/dog3before.svg",
+    "imgAfter": "/images/before-after/dog3after.svg",
+    "description": "Coco is a young, energetic Shih Tzu who loves exploring, cuddling, and eating treats the moment she steps in. Her long coat requires regular trimming, so she often gets a cute puppy-cut style that matches her sweet personality. Coco transforms beautifully after grooming, going from a sleepy fluffball to a clean, shiny, stylish princess."
+  },
+  {
+    "id": "4",
+    "name": "Meet Max",
+    "imgBefore": "/images/before-after/dog4before.svg",
+    "imgAfter": "/images/before-after/dog4after.svg",
+    "description": "Max is a smart and active three-year-old Border Collie who never stops moving—except during grooming, where he behaves like a perfect angel. His thick double coat needs thorough brushing and detangling, especially after his outdoor adventures. Max always walks out looking sleek, refreshed, and ready for his next mission."
+  }
+]
